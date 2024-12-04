@@ -1,5 +1,5 @@
 #include "arch/i386/ports/portsIO.h"
-#include "arch/i386/ports/serialCommunication/serialIO.h"
+#include "arch/i386/serialCommunication/serialIO.h"
 
 // checks if serial communication ready for data transmition
 int isTransmitEmpty() {

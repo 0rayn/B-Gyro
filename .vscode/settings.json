@@ -2,6 +2,8 @@
 	"files.associations": {
 		"types.h": "c",
 		"memory.h": "c",
-		"strings.h": "c"
+		"strings.h": "c",
+		"serialio.h": "c",
+		"print.h": "c"
 	}
 }

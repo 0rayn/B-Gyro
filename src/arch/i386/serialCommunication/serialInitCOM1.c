@@ -1,8 +1,8 @@
 #include "arch/i386/ports/portsIO.h"
-#include "arch/i386/ports/serialCommunication/serialIO.h"
+#include "arch/i386/serialCommunication/serialIO.h"
 
 // init the serial communication to use the UART Protocol
-int initSerial() {
+int initSerialCOM1() {
 	// Disable all interrupts (SERIAL Interupts), making it so you need  to check if there is an input
 	pByteOut(COM1 + 1, 0x00);
 	// Enable DLAB (set baud rate divisor), enables you to change the rate
